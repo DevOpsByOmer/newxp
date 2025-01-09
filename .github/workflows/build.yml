@@ -1,0 +1,13 @@
+name: new pipeline
+
+
+on:
+  push:
+    branch:
+      - master
+
+
+
+jobs:
+  build:
+    runs-on:
